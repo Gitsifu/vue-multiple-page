@@ -261,7 +261,7 @@ location ^~ /pc {
   try_files $uri $uri/ /pc.html;
 }
 # 匹配以 '/mobile' 开头，访问mobile.html文件
-location ^~ /m {
+location ^~ /mobile {
   try_files $uri $uri/ /mobile.html;
 }
 ```
